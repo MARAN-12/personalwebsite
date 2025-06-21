@@ -17,6 +17,7 @@ h2 {
 }
 section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
 
 }
 p {
@@ -29,6 +30,10 @@ p {
 nav {
     background-color: black;
     padding: 10px;
+}
+nav a:hover {
+    color: #ffcc00;
+    transition: 0.3s;
 }
 a {
    margin-right: 15px; 
@@ -54,4 +59,8 @@ ul {
     color: black;
     margin-left: 100px;
     font-size: x-large;
+}
+body {
+    background-color: #ececec;
+
 }
