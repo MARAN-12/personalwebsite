@@ -64,3 +64,20 @@ body {
     background-color: #ececec;
 
 }
+button {
+    margin-left: 255px;
+    align-items: center;
+    padding: 12px 24px;
+    color: white;
+    background-color: #0077ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+.cool-btn:hover {
+    background-color: #0055cc;
+    transform: scale(1.05);
+}
