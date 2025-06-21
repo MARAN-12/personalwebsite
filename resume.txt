@@ -1,0 +1,20 @@
+Maran
+AGE: 17
+EMAIL: marandev012@gmail.com
+LOCATION:India
+
+objective:
+I am a self taught web developer and a gamer focused on learning high income skills to earn money.
+
+skills:
+-HTML,CSS,JAVASCRIPT(beginner)
+-GAMING CONTENT CREATION
+-VEDIO EDITING (YOUTUBE)
+-Learning react and free launcing
+
+PROJECTS:
+- personal portfolio website(HTML+CSS)
+- FREE FIRE GAMING ZONE
+
+YOUTUBE:
+https://www.youtube.com/@2k25gamingzone
