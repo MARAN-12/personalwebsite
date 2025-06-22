@@ -65,7 +65,6 @@ body {
 
 }
 button {
-    align-items: center;
     padding: 12px 24px;
     color: white;
     background-color: red;
@@ -77,6 +76,10 @@ button {
     transition: background-color 0.3s, transform 0.2s;
 }
 .cool-btn:hover {
-    background-color: #0055cc;
+    background-color: #cc0000;
     transform: scale(1.05);
+}
+div {
+    text-align: center;
+    margin-top: 20px;
 }

@@ -16,14 +16,31 @@
     <h2>INTRO</h2>
     <p>Hi Welcome To My Personal Website You Can See Projects Completed By Me And My Details.</p>
     <h2>click the button</h2>
-    <button onclick="showMessage()" class="cool-btn">Click me</button>
+    <div>
+        <button onclick="changestyle()" class="cool-btn">Click me</button>
+        <p id="message" style="text-align: center; font-size: 20px; color: #333;"></p>
+    </div>
+    <div>
+        <h2>To Change Back</h2>
+       <button onclick="changebackstyle()" class="cool-btn">Click me</button>
+        <p id="vmessage" style="text-align: center; font-size: 20px; color: #333;"></p>
+    </div>
     <script>
-        function showMessage() {
-            alert("hey this page is created by maran vist other pages to know about him");
+        function changestyle() {
+            const message = document.getElementById("message");
+            message.innerText = "You Just Changed The Colors!";
+            message.style.color = "#ff6600";
+            document.body.style.backgroundColor = "#00ff00"
+        }
+        function changebackstyle() {
+            const vmessage = document.getElementById("vmessage");
+            vmessage.innerText = "You Just Changed The Colors to initial stage!";
+            vmessage.style.color = "#000000";
+            document.body.style.backgroundColor = "white"
         }
     </script>
     <footer>
-        2025 all rights reserved
+        2025 All Rights Reserved
     </footer>
 </body>
 </html>
